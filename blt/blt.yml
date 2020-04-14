@@ -13,13 +13,13 @@ project:
   machine_name: itablt3
   # Used for enforcing correct git commit msg syntax.
   prefix: BLT
-  human_name: 'ITA-BLTed'
+  human_name: 'ITA-BLT'
   profile:
     name: lightning
   # This will be used as the local uri for all developers.
   local:
     protocol: http
-    hostname: 'itablt3.dd'
+    hostname: '${project.machine_name}.dd:8083'
 # Configuration settings for new git repository.
 git:
   default_branch: master
